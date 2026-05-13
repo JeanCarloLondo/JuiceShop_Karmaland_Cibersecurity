@@ -59,7 +59,7 @@ Se envió una petición de login con un payload de SQL Injection en el campo de 
 
 ```json
 {
-    "email": "' OR 1=1--",
+    "email": "' OR 1=1-- ",
     "password": "x"
 }
 ```
